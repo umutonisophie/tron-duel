@@ -1,0 +1,39 @@
+body {
+    background-color: #05050a;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #00f0ff;
+}
+
+canvas {
+    border: 4px solid #333;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+    background-color: #000;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #888;
+}

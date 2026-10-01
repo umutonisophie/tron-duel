@@ -1,0 +1,18 @@
+{
+  "name": "tron-duel",
+  "version": "1.0.0",
+  "description": "A two-player arcade game in the style of Tron, on a single canvas. No dependencies.",
+  "private": true,
+  "scripts": {
+    "test": "node tron.test.js",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "game",
+    "canvas",
+    "javascript",
+    "arcade",
+    "tron"
+  ],
+  "license": "MIT"
+}

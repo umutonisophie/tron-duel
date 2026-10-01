@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tron Duel</title>
+    <link rel="stylesheet" href="tron.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>TRON DUEL</h1>
+
+        <canvas id="tronCanvas" width="800" height="600"></canvas>
+
+        <div id="scoreboard">
+            <span id="p1-score" style="color: #00f0ff;">Player 1: 0</span>
+            <span id="p2-score" style="color: #ff0055;">Player 2: 0</span>
+        </div>
+
+        <p id="message">Press Space to start</p>
+
+        <p>
+            <strong>Player 1</strong> (cyan): <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd><br>
+            <strong>Player 2</strong> (magenta): arrow keys
+        </p>
+    </div>
+
+    <script src="tron.js"></script>
+</body>
+</html>
